@@ -78,4 +78,4 @@ const ListaOpiniones = () => {
     )
 }
 
-export default ListaOpiniones
+export default ListaOpiniones;
