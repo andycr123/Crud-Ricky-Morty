@@ -1,4 +1,4 @@
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert'
 import { firebase } from '../firebase'
 export const getListaOpiniones = async () => {
 

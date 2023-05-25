@@ -1,5 +1,5 @@
 import axios from 'axios'
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert'
 
 export const getCharacter = async (filter) => {
     const result = await axios.get(`https://rickandmortyapi.com/api/character${filter}`).then((res) => {

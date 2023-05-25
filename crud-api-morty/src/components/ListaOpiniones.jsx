@@ -5,6 +5,7 @@ import { getListaOpiniones } from '../helpers/getListaOpiniones'
 import ModalPersonaje from './modals/ModalPersonaje'
 import { Button } from 'react-bootstrap'
 
+
 const ListaOpiniones = () => {
     const [ListaPersonajes, setListaPersonajes] = React.useState([])
     const [personajeEditar, setPersonajeEditar] = React.useState({})
